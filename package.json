@@ -16,7 +16,8 @@
 		"concurrently": "^5.2.0",
 		"express": "^4.17.1",
 		"materialize-css": "^1.0.0-rc.2",
-		"nodemon": "^2.0.4"
+		"nodemon": "^2.0.4",
+		"react-router-dom": "^5.2.0"
 	},
 	"c": "proxy"
 }

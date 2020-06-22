@@ -12,6 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
+          <Header />
           <Switch>
             <Route exact path="/" component={Search}/>
             <Route path="/saved" component={Saved}/>
