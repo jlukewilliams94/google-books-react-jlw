@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Nav from "./components/navbar/navbar"
 import Search from "./pages/search"
 import Saved from "./pages/saved"
-import Header from "./components/header/header"
+//import Header from "./components/header/header"
 
 class App extends Component {
   render() {
@@ -12,7 +12,6 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
-          <Header />
           <Switch>
             <Route exact path="/" component={Search}/>
             <Route path="/saved" component={Saved}/>
